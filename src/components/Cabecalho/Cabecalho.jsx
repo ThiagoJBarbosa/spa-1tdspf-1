@@ -10,8 +10,8 @@ export default function Cabecalho(){
             <header className="cabecalho">
                 <nav>
                     <ul>
-                        <li className="homebutton"><Link to="/" className={ rotaAtual.pathname == "/" ? "active" : ""}>Home</Link></li>
-                        <li className="Produtobutton"><Link to="/produtos" className={ rotaAtual.pathname == "/produtos" ? "active" : ""}>Produtos</Link></li>
+                        <li className="cabecalhohome"><Link to="/" className={ rotaAtual.pathname == "/" ? "active" : ""}>Home</Link></li>
+                        <li className="cabecalhoProd"><Link to="/produtos" className={ rotaAtual.pathname == "/produtos" ? "active" : ""}>Produtos</Link></li>
                     </ul>
                 </nav>
             </header>
