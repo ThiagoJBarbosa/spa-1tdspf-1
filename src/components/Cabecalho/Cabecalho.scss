@@ -1,38 +1,54 @@
+$color-azulEs: #03045E;
+$color-Azul: #0077B6;
+$color-AzulBB: #00B4D8;
+$color-AzulAgua: #90E0EF;
+
 .cabecalho{
 
-    background-color: #999;
+    background-color: #161A1D;
     color: #fff;
-    width: 15%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
 
+    nav{
+        display: flex;
+        margin-right: 5%;
+    }
+
     ul{
         list-style: none;
         padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: end;
 
-        li a{
+        .homebutton a{
             text-decoration: none;
             text-align: center;
-            display: block;
             padding: 5%;
-            margin: 0.5% 0;
             color: #fff;
             transition: 300ms ease-out;
 
             &:hover{
-                background-color: red;
-                color: green;
-
+                background-color: $color-Azul;
+                color: #fff;
             }
         }
 
+        .Produtobutton a{
+            text-decoration: none;
+            text-align: center;
+            padding: 5%;
+            color: #fff;
+            margin-left: 15%;
+            transition: 300ms ease-out;
 
-    }
-
-    .active{
-        background-color: #9f2;
-        color: #000;
+            &:hover{
+                background-color: #fff;
+                color: $color-azulEs;
+            }
+        }
     }
 
 }
