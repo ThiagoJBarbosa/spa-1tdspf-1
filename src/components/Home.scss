@@ -1,0 +1,26 @@
+$color-azulEs: #03045E;
+$color-Azul: #0077B6;
+$color-AzulBB: #00B4D8;
+$color-AzulAgua: #90E0EF;
+
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: $color-AzulBB;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    justify-content: center;
+    align-items: center;
+    color: #03045E;
+}
+
+img{
+    width: 80vw;
+}
